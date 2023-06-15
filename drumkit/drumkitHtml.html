@@ -21,15 +21,15 @@
     </div>
     <div data-key="70" class="key">
         <kbd>F</kbd>
-        <span class="sound">closed hat</span>
+        <span class="sound">open hat</span>
     </div>
     <div data-key="71" class="key">
         <kbd>G</kbd>
-        <span class="sound">Open hat</span>
+        <span class="sound"> hat hit</span>
     </div>
     <div data-key="72" class="key">
         <kbd>H</kbd>
-        <span class="sound">Hat pedal</span>
+        <span class="sound">close hat </span>
     </div>
     <div data-key="74" class="key">
         <kbd>J</kbd>
@@ -66,9 +66,10 @@
     })
     function removeTransition(e){
         if(e.propertyName !== 'transform')return
+        this.classList.remove('playing');
     }
 
-    const keys =document.querySelectorAll('.keys');
+    const keys =document.querySelectorAll('.key');
     keys.forEach(key => key.addEventListener('transitionend',removeTransition));
 </script>
 </body>

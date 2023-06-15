@@ -19,3 +19,9 @@
 /*    display: block;*/
 /*    font-size: 40px;*/
 /*}*/
+.keys{
+    display: inline-flex;
+}
+body{
+background-image: url("https://media.istockphoto.com/id/805764964/photo/rock-n-roll-drummer-sparkles-in-the-air.webp?s=612x612&w=is&k=20&c=ii0w5A9uo746xqQ1un27cP8QBbu1PUmcW1HsFXKl5Tw=");
+}
