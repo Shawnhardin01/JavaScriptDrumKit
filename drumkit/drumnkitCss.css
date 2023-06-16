@@ -15,10 +15,7 @@
     border-color: darkred;
     box-shadow: 0 0 10px aqua;
 }
-/*kdb{*/
-/*    display: block;*/
-/*    font-size: 40px;*/
-/*}*/
+
 .keys{
     display: inline-flex;
     position: fixed; /* or absolute */
